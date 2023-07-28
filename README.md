@@ -6,7 +6,7 @@
 For Covid patient monitoring, measuring cough rate is a cruical and important task. By monitoring cough rate we can decide different conditon of the paitient. In this project we tried to measure cough rate in real time. 
 
 For cough rate measuring we trained a deep learning model which can effectively detect cough from the audio input. Details of the dataset can be found <a href= "https://research.google.com/audioset/dataset/index.html">here </a>. We tried to build a robust model sothat it can differentiate cough from other sounds like sneeze, talking, background noise, intrumental noise etc . <br>
-`Detailed explanation of the dataset preparation can be found <a href= "https://github.com/Forsad/FluSense-data">here</a>.`
+**Detailed explanation of the dataset preparation can be found <a href= "https://github.com/Forsad/FluSense-data">here</a>.**
 
 ### Dataset and Training Process
 We used `YAMNet` as our base network which is a modified version of `Mobilenet_v1` for audio data classification. As our works is a work for audio classification, whether the incoming audio is cough or not, we used some layer on top of the base YAMNet, as YAMNet is designed for classifying 521 audio event classes.

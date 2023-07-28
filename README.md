@@ -13,6 +13,7 @@ We used `YAMNet` as our base network which is a modified version of `Mobilenet_v
 
 We used `AudioSet` dataset released by `Google` as our training data. Main Audioset consists of `521 classes` which is firmly annotated. We only used a fraction of that dataset. We used cough data as positive event and sneeze, sniffle, breathe, hiccup, gasp, silence and speech audio data as negative event.
 
+
 **Dataset Distribution**:<br>
 `Train:`- <br>
   Cough= 4926 <br>
@@ -24,6 +25,7 @@ We used `AudioSet` dataset released by `Google` as our training data. Main Audio
 ### Training results:
 We trained our model got around `88.43% accuracy` on our validation dataset. <br>
 There are some results of our model. 
+
 | **Metric**                                                                   | **Result** |
 |:----------------------------------------------------------:|:--------------------------------
 | Accuracy                                                                       | 88.43 %          |
@@ -31,3 +33,5 @@ There are some results of our model.
 | Recall                                                                         | 77%          |
 | F1 score                                                                       |84.4%          |
 
+### Inference
+For running inference run <a href= "./final_cough_rate_notebook.ipynb">final_cough_rate_notebook.ipynb</a> notebook.

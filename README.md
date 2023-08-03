@@ -35,3 +35,6 @@ There are some results of our model.
 
 ### Inference
 For running inference run <a href= "./final_cough_rate_notebook.ipynb">final_cough_rate_notebook.ipynb</a> notebook.
+
+##
+N.B: `pyfirmata` module was used to connect the device with arduino to show the results in a LCD display also blink an LED for extreme case.
